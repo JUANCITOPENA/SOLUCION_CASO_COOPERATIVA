@@ -143,11 +143,11 @@ INSERT INTO REGION(nombre_region)VALUES('Region Sur RD');--Toda Zona Sur del Pai
 INSERT INTO REGION(nombre_region)VALUES('Region Este RD');--Toda la Parte Sureste del Pais Incluyendo y Santo Domingo
 
 --REGIONES DE ESTADOS UNIDOS:
-INSERT INTO REGION(nombre_region)VALUES('Atl·ntico Medio USA');
-INSERT INTO REGION(nombre_region)VALUES('Atl·ntico Sur USA');
+INSERT INTO REGION(nombre_region)VALUES('Atl√°ntico Medio USA');
+INSERT INTO REGION(nombre_region)VALUES('Atl√°ntico Sur USA');
 INSERT INTO REGION(nombre_region)VALUES('Nueva Inglaterra USA');
 
---REGIONES DE ESTADOS ESPA—A:
+--REGIONES DE ESTADOS ESPA√ëA:
 INSERT INTO REGION(nombre_region)VALUES('EXTREMADURA');
 INSERT INTO REGION(nombre_region)VALUES('CASTILLA DE LEON');
 INSERT INTO REGION(nombre_region)VALUES('MADRID');
@@ -166,29 +166,29 @@ select * from PAIS
 
 --REGION DEL CIBAO-NORTE:
 
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('ConcepciÛn de La Vega',1,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Concepci√≥n de La Vega',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Moca',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('San Felipe de Puerto Plata',1,1);
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('San Francisco de MacorÛs',1,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('San Francisco de Macor√≥s',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Santiago de los Caballeros',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Bonao',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Valverde',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Monte Cristi',1,1);
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Saman·',1,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Saman√°',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Puerto Plata',1,1);
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('DajabÛn',1,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Dajab√≥n',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Salcedo',1,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Nagua',1,1);
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('CotuÌ',1,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais) VALUES('Cotu√≠',1,1);
 
 --REGION DEL SUR:
 
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Villa Altagracia',2,1);
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('San CristÛbal',2,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('San Crist√≥bal',2,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Indepencia',2,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Pedernales ',2,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('San Jose de ocoa',2,1);
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('BanÌ',2,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Ban√≠',2,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Azua',2,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Bajos de Haina',2,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Santa Cruz de Barahona',2,1);
@@ -202,14 +202,14 @@ INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Santo Domingo DN',3
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Santo Domingo Oeste',3,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Santo Domingo Este',3,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Santo Domingo Norte',3,1);
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('San Pedro de MacorÛs',3,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('San Pedro de Macor√≥s',3,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('La Romana',3,1);
-INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('SalvaleÛn de Higuey',3,1);
+INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Salvale√≥n de Higuey',3,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Punta Cana',3,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('El Seibo',3,1);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Hato Mayor',3,1);
 
---CIUDADES DE PAISES COMO ESPA—A, USA, FRANCIA:
+--CIUDADES DE PAISES COMO ESPA√ëA, USA, FRANCIA:
 
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Nueva York',4,6);
 INSERT INTO ciudad (nombre_ciudad,id_region, id_pais)VALUES('Maryland',5,6);
@@ -236,7 +236,7 @@ INSERT into PAIS (nombre_pais) VALUES ('Cuba')
 INSERT into PAIS (nombre_pais) VALUES ('Jamaica')
 INSERT into PAIS (nombre_pais) VALUES ('Estados Unidos')
 INSERT into PAIS (nombre_pais) VALUES ('Canada')
-INSERT into PAIS (nombre_pais) VALUES ('EspaÒa')
+INSERT into PAIS (nombre_pais) VALUES ('Espa√±a')
 INSERT into PAIS (nombre_pais) VALUES ('Japon')
 INSERT into PAIS (nombre_pais) VALUES ('Argentina')
 INSERT into PAIS (nombre_pais) VALUES ('Venezuela')
@@ -266,7 +266,7 @@ INSERT INTO SOCIO VALUES(4,'FRANCISCO','CONTRERAS','13-05-2001','1','C/JUAN SALV
 INSERT INTO SOCIO VALUES(5,'JULIO','BERNIE','13-05-2001','1','C/SAN RAFALE # 35, STO.DGO','TRANSPORTE RAPIDO RD','809-111-5478','5','809-540-0000','829-841-2011','e.brea@gmail.com','12-09-2020','2','1')
 INSERT INTO SOCIO VALUES(6,'MARITZA','ACOSTA','13-05-2001','2','C/JUANA MENDEZ # 35 SAN JUAN','ROPAS DE PACAS S.A','809-111-9875','6','809-540-0000','829-841-2011','e.brea@gmail.com','12-09-2020','1','1')
 INSERT INTO SOCIO VALUES(7,'CARLOS','JIMENEZ','14-05-1986','3','C/1ERA BALAGUER # 88','PERFUMES AFRODITA','809-954-9874','9','809-540-0000','829-841-2011','C.JIMENEZ@gmail.com','01-05-2021','2','1')
-INSERT INTO SOCIO VALUES(8,'PEDRO','PE—A','22-03-1996','1','C/DUARTE 145','EL JUMBO','809-444-3333','10','809-770-8080','829-850-9852','P.PENA@gmail.com','09-12-2020','1','1')
+INSERT INTO SOCIO VALUES(8,'PEDRO','PE√ëA','22-03-1996','1','C/DUARTE 145','EL JUMBO','809-444-3333','10','809-770-8080','829-850-9852','P.PENA@gmail.com','09-12-2020','1','1')
 INSERT INTO SOCIO VALUES(9,'MARINO','CRUZ','10-10-1986','1','C/JOSE CONTRERAS #55','EL NACIONAL','809-222-2222','11','809-555-5555','829-888-8888','M.CRUZ@gmail.com','12-09-2020','1','1')
 INSERT INTO SOCIO VALUES(10,'FERNANDO','VARGAS','13-05-1973','1','C/MANZANA QUINTA # 35','POPULAR','809-999-2222','14','809-540-0000','829-841-2011','F.VARGAS@gmail.com','12-09-2019','1','1')
 INSERT INTO SOCIO VALUES(11,'MARCIA','TERRERO','28-12-1999','2','C/AGUACATE RD, ESQUINA # 35','BHD-LEON','809-999-1444','13','809-540-0000','829-841-2011','M.TERRERO@gmail.com','11-05-2016','2','1')
@@ -278,15 +278,15 @@ INSERT INTO SOCIO VALUES(16,'ADRIANA','CRUZ','10-10-1986','2','C/JOSE CONTRERAS 
 INSERT INTO SOCIO VALUES(17,'CAROLINA','HERNANDEZ','10-10-1986','2','C/PENTRACION NORTE','TODO PIZZA','809-444-4444','14','809-115-1155','829-178-8888','M.CRUZ@gmail.com','12-09-2020','1','1')
 INSERT INTO SOCIO VALUES(18,'LAURA','DIAZ','10-10-2001','2','C/CENTRAL # 450','HOME COMPUTER','809-222-2222','11','809-321-3322','829-002-0001','M.CRUZ@gmail.com','12-09-2020','1','1')
 INSERT INTO SOCIO VALUES(19,'CAMILA','CASTRO ','18-01-2002','2','C/JOSELUIS RODRIGUEZ ESQ. 32','LAPTOP SOLO LAPTOP','809-741-9630','15','809-448-1440','829-808-8080','M.CRUZ@gmail.com','12-09-2020','1','1')
-INSERT INTO SOCIO VALUES(20,'CATALINA','RODRÕGUEZ','10-01-2005','2','C/MIGUEL DE MOYA #55','ROMPE PLATOS','809-789-7391','16','809-789-9990','829-909-7890','M.CRUZ@gmail.com','12-09-2020','1','1')
+INSERT INTO SOCIO VALUES(20,'CATALINA','RODR√çGUEZ','10-01-2005','2','C/MIGUEL DE MOYA #55','ROMPE PLATOS','809-789-7391','16','809-789-9990','829-909-7890','M.CRUZ@gmail.com','12-09-2020','1','1')
 INSERT INTO SOCIO VALUES(21,'NATALIA','TORRES','01-10-2004','2','C/MARIA JIMENES 100','PCALZADOS PARA TI RD','849-000-9731','17','809-777-7575','829-953-8901','M.CRUZ@gmail.com','12-09-2020','1','1')
 INSERT INTO SOCIO VALUES(22,'VIVIANA',' GOMEZ','10-08-1995','2','C/DEL BIEN Y EL MAR','LLEVA VIDA INC','809-789-3210','18','809-145-1210','829-951-8903','M.CRUZ@gmail.com','12-09-2020','1','1')
 INSERT INTO SOCIO VALUES(23,'LEONARDO','ROJAS ','08-10-1996','3','C/MAR ADENTRO 777','DATA ANALYST DCD','809-100-8000','19','809-147-5555','829-047-9087','M.CRUZ@gmail.com','12-09-2020','1','1')
-INSERT INTO SOCIO VALUES(24,'ANDR…S','GARCÕA','09-09-1999','1','C/DIENTES FELICES','CIENCIA DE DATOS INC','809-987-0008','20','809-789-6547','829-789-7700','M.CRUZ@gmail.com','12-09-2020','1','1')
-INSERT INTO SOCIO VALUES(25,'LUIS','BOLÕVAR','01-01-1986','1','AV. SIEMPRE VIVA # 115','EMPRESA DATOS RD','809-784-7845','21','809-999-6665','829-756-0077','M.CRUZ@gmail.com','12-09-2020','1','1')
+INSERT INTO SOCIO VALUES(24,'ANDR√âS','GARC√çA','09-09-1999','1','C/DIENTES FELICES','CIENCIA DE DATOS INC','809-987-0008','20','809-789-6547','829-789-7700','M.CRUZ@gmail.com','12-09-2020','1','1')
+INSERT INTO SOCIO VALUES(25,'LUIS','BOL√çVAR','01-01-1986','1','AV. SIEMPRE VIVA # 115','EMPRESA DATOS RD','809-784-7845','21','809-999-6665','829-756-0077','M.CRUZ@gmail.com','12-09-2020','1','1')
 INSERT INTO SOCIO VALUES(26,'OSCAR','OVALLE','15-03-2003','1','AV. VIVE FELIZ #88.5','SQL COMPANY','809-074-7410','37','809-997-999','829-321-3210','M.CRUZ@gmail.com','12-09-2020','1','6')
 INSERT INTO SOCIO VALUES(27,'PABLO','ALVAREZ','31-12-1974','1','C/NI IDEA DE DONDE VIVE','POWER BI COMPANY','809-014-2581','38','809-780-0009','829-111-3214','M.CRUZ@gmail.com','12-09-2020','3','6')
-INSERT INTO SOCIO VALUES(28,'RAFAEL','PARRA','31-10-1980','1','C/SUE—A SIEMPRE # 666','EMPRESA DE EXCEL.COM','809-078-0147','40','809-784-4578','829-222-0149','M.CRUZ@gmail.com','12-09-2020','1','8')
+INSERT INTO SOCIO VALUES(28,'RAFAEL','PARRA','31-10-1980','1','C/SUE√ëA SIEMPRE # 666','EMPRESA DE EXCEL.COM','809-078-0147','40','809-784-4578','829-222-0149','M.CRUZ@gmail.com','12-09-2020','1','8')
 INSERT INTO SOCIO VALUES(29,'RICARDO','OCHOA','03-09-2005','1','C/NADIE LO SABE Y MENOS #400','YO LA HAGO INC','809-124-4567','41','809-874-7489','829-321-3571','M.CRUZ@gmail.com','12-09-2020','1','8')
 INSERT INTO SOCIO VALUES(30,'ALEJANDRO','SALAZAR','09-09-2001','1','C/LA BERGUENZA #752','ADIVINEN, ADIVINEN INC','809-012-0123','42','809-789-3214','829-159-1590','M.CRUZ@gmail.com','12-09-2020','3','8')
 INSERT INTO SOCIO VALUES(31,'MARINO','CRUZ','17-05-2001','3','C/DESARROLLADOR WEB','SUPERMERCADO LAURA','809-123-1234','42','809-987-7894','829-101-1011','M.CRUZ@gmail.com','12-09-2020','3','8')
@@ -481,28 +481,28 @@ select * from AHORRO
 select * from PAIS
 
 --MOSTRAR LOS NOMBRE DE LOS SOCIOS, SUS AHORROS, FECHA DE NACMIENTO, FECHA ACTUAL Y  
---CUANTOS A—OS DE EDAD TIENEN LOS SOCIOS NUEVOS Y VIEJOS.
+--CUANTOS A√ëOS DE EDAD TIENEN LOS SOCIOS NUEVOS Y VIEJOS.
 
 select SC.id_socio, nombre_socio as [Nombre del Socio],fecha_nacimiento, GETDATE() as [Fecha Actual],
-DATEDIFF(YEAR, fecha_nacimiento, GETDATE()) as 'AÒos de Edad', a.Monto_ahoro 
+DATEDIFF(YEAR, fecha_nacimiento, GETDATE()) as 'A√±os de Edad', a.Monto_ahoro 
 from SOCIO sc JOIN AHORRO a
 on sc.id_socio = a.id_socio
 JOIN TIPO_AHORRO TA
 ON A.id_tipo_Ahorro = TA.id_tipo_Ahorro
 order by sc.id_socio asc
 
---MOSTRAR LOS NOMBRE DE LOS SOCIOS, SUS AHORROS, FECHA DE INGRESO, FECHA ACTUAL Y CUANTOS A—OS DE EDAD TIENEN LOS SOCIOS NUEVOS Y VIEJOS.
+--MOSTRAR LOS NOMBRE DE LOS SOCIOS, SUS AHORROS, FECHA DE INGRESO, FECHA ACTUAL Y CUANTOS A√ëOS DE EDAD TIENEN LOS SOCIOS NUEVOS Y VIEJOS.
 
 select SC.id_socio, nombre_socio as [Nombre del Socio], apellido_socio, fecha_de_ingreso, fecha_nacimiento, 
 GETDATE() as [Fecha Actual],
-DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'AÒos de Edad',
-DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [AÒos Ahorrando],
+DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'A√±os de Edad',
+DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [A√±os Ahorrando],
 Monto_ahoro
 from SOCIO sc join AHORRO a
 on sc.id_socio = a.id_socio
 join TIPO_AHORRO TA
 ON A.id_tipo_Ahorro = TA.id_tipo_Ahorro
-order by [AÒos Ahorrando] desc
+order by [A√±os Ahorrando] desc
 
 --VAMOS LA TABLA TIPO DE AHORRO, VAMOS HACER ALGUNOS CAMBIOS:
 
@@ -529,14 +529,14 @@ on  S.id_socio=A.id_socio
 JOIN TIPO_AHORRO TA 
 ON a.id_tipo_Ahorro= ta.id_tipo_Ahorro
 
---CREE UNA VISTA QUE MOSTRE LOS NOMBRE DE LOS SOCIOS, SUS AHORROS, FECHA DE INGRESO, FECHA ACTUAL Y CUANTOS A—OS DE EDAD TIENEN LOS SOCIOS NUEVOS Y VIEJOS.
+--CREE UNA VISTA QUE MOSTRE LOS NOMBRE DE LOS SOCIOS, SUS AHORROS, FECHA DE INGRESO, FECHA ACTUAL Y CUANTOS A√ëOS DE EDAD TIENEN LOS SOCIOS NUEVOS Y VIEJOS.
 
 CREATE OR ALTER VIEW VISTA_SOCIOS_FECHAS
 as
 select nombre_socio as [Nombre del Socio], apellido_socio, fecha_de_ingreso, fecha_nacimiento, 
 GETDATE() as [Fecha Actual],
-DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'AÒos de Edad',
-DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [AÒos Ahorrando],
+DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'A√±os de Edad',
+DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [A√±os Ahorrando],
 a.fecha_ahorro, a.Monto_ahoro
 from SOCIO sc join AHORRO a
 on sc.id_socio = a.id_socio
@@ -549,8 +549,62 @@ select * from VISTA_SOCIOS_FECHAS
 select * from SOCIO
 
 
+--CREAR UNA VISTA QUE CALCULE AL AHORRO UN 10% DE INTERES GENERAL
 
---CREE UNA VISTA QUE MOSTRE LOS NOMBRE DE LOS SOCIOS, SUS AHORROS, FECHA DE INGRESO, FECHA ACTUAL Y CUANTOS A—OS DE EDAD TIENEN LOS SOCIOS NUEVOS Y VIEJOS.
+CREATE OR ALTER VIEW VISTA_SOCIOS_FECHAS_MAS_INTERES_10_X_100_TO
+as
+select nombre_socio as [Nombre del Socio], apellido_socio, fecha_de_ingreso, fecha_nacimiento, 
+GETDATE() as [Fecha Actual],
+DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'A√±os de Edad',
+DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [A√±os Ahorrando],
+a.fecha_ahorro, 
+a.Monto_ahoro [Total de Ahorro], 
+SUM(a.Monto_ahoro * 10 /100 ) [Total Intes]
+from SOCIO sc join AHORRO a
+on sc.id_socio = a.id_socio
+join TIPO_AHORRO TA
+ON A.id_tipo_Ahorro = TA.id_tipo_Ahorro
+WHERE ta.id_tipo_Ahorro=2
+GROUP BY nombre_socio, apellido_socio, fecha_de_ingreso, fecha_nacimiento,a.fecha_ahorro,  a.Monto_ahoro
+
+--CONSULTA LA VISTA
+
+select * from VISTA_SOCIOS_FECHAS_MAS_INTERES_10_X_100_TO
+where fecha_ahorro  BETWEEN '2020-01-01' and '2020-09-12'
+ORDER BY fecha_ahorro DESC
+
+
+
+--CREAR UNA VISTA QUE CALCULE AL AHORRO UN 10% DE INTERES
+
+
+CREATE OR ALTER VIEW VISTA_SOCIOS_FECHAS_MAS_INTERES_10_X_100_TO
+as
+
+select nombre_socio as [Nombre del Socio], apellido_socio, fecha_de_ingreso, fecha_nacimiento, 
+GETDATE() as [Fecha Actual],
+DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'A√±os de Edad',
+DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [A√±os Ahorrando],
+a.fecha_ahorro, 
+a.Monto_ahoro [Total de Ahorro], 
+SUM(Monto_ahoro * 10 /100 ) AS [Total Intes]
+from SOCIO sc join AHORRO a
+on sc.id_socio = a.id_socio
+join TIPO_AHORRO TA
+ON A.id_tipo_Ahorro = TA.id_tipo_Ahorro
+GROUP BY nombre_socio, apellido_socio, fecha_de_ingreso, fecha_nacimiento,a.fecha_ahorro,  a.Monto_ahoro
+
+
+--CONSULTA LA VISTA
+
+select * from VISTA_SOCIOS_FECHAS_MAS_INTERES_10_X_100_TO
+where fecha_ahorro  BETWEEN '2020-01-01' and '2020-09-12'
+ORDER BY fecha_ahorro DESC
+
+
+
+
+--CREE UNA VISTA QUE MOSTRE LOS NOMBRE DE LOS SOCIOS, SUS AHORROS, FECHA DE INGRESO, FECHA ACTUAL Y CUANTOS A√ëOS DE EDAD TIENEN LOS SOCIOS NUEVOS Y VIEJOS.
 
 CREATE OR ALTER VIEW vista_socios
 AS
@@ -559,7 +613,7 @@ select SC.id_socio, sc.nombre_socio as 'Nombre del Socio', sc.apellido_socio as 
 g.genero as'Genero', sc.lugar_de_trabajo, sc.fecha_de_ingreso as 'Fecha Ingreso a la Cooperativa', cu.nombre_ciudad as 'Ciudad', R.nombre_region AS 'Region',
 p.nombre_pais as 'Pais',
 GETDATE() as [Fecha Actual],
-DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [AÒos Ahorrando],DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'AÒos de Edad',
+DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [A√±os Ahorrando],DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'A√±os de Edad',
 TA.TIPO_AHORRO, TC.TIPO_SOCIO  ,a.fecha_ahorro, a.Monto_ahoro 'Total de Ahorro'
 from SOCIO sc join AHORRO a
 on sc.id_socio = a.id_socio
@@ -576,6 +630,36 @@ JOIN TIPO_SOCIO TC ON TC.id_tipo_socio= SC.id_tipo_socio
 select * from vista_socios
 
 
+--CREAR UN PROCEDIMIENTO QUE CONSULTE EL ITERES DE UN 10% AL AHORRO.
+
+CREATE OR ALTER procedure  INTERES_X_AHORRO_10_X_100TO
+AS
+select SC.id_socio, sc.nombre_socio as 'Nombre del Socio', sc.apellido_socio as 'Apellido', sc.direccion,SC.telefono_movil, sc.fecha_nacimiento as 'Fecha Nac',
+g.genero as'Genero', sc.lugar_de_trabajo, sc.fecha_de_ingreso as 'Fecha Ingreso a la Cooperativa', cu.nombre_ciudad as 'Ciudad', R.nombre_region AS 'Region',
+p.nombre_pais as 'Pais',
+GETDATE() as [Fecha Actual],
+DATEDIFF(YEAR, fecha_de_ingreso, GETDATE()) as [A√±os Ahorrando],
+DATEDIFF(YEAR, fecha_nacimiento,GETDATE()) as 'A√±os de Edad',
+TA.TIPO_AHORRO, TC.TIPO_SOCIO  ,a.fecha_ahorro,
+a.Monto_ahoro [Total de Ahorro], 
+SUM(a.Monto_ahoro * 10 /100 ) [Total Intes]
+from SOCIO sc join AHORRO a
+on sc.id_socio = a.id_socio
+join TIPO_AHORRO TA
+ON A.id_tipo_Ahorro = TA.id_tipo_Ahorro
+join CIUDAD cu 
+on sc.id_ciudad=cu.id_ciudad
+JOIN REGION R ON CU.id_region= R.id_region
+JOIN PAIS P on p.id_pais=sc.id_pais
+join GENERO g on g.id_genero = sc.id_genero
+JOIN TIPO_SOCIO TC ON TC.id_tipo_socio= SC.id_tipo_socio
+group by SC.id_socio, sc.nombre_socio, sc.apellido_socio, sc.direccion,SC.telefono_movil, sc.fecha_nacimiento,
+g.genero,sc.lugar_de_trabajo, sc.fecha_de_ingreso,fecha_ahorro,cu.nombre_ciudad,R.nombre_region,TA.TIPO_AHORRO, TC.TIPO_SOCIO ,
+p.nombre_pais,Monto_ahoro
+
+--EJECUTAMOS EL PROCEDIMIENTO:
+
+exec INTERES_X_AHORRO_10_X_100TO 
 
 
 
@@ -609,7 +693,7 @@ if(@total <1) --Si no se encuentran resultados es decir 0 valor.
 	end
 else 
 	begin
-		print('El Socio'  + ' ' + @nombre_socio +  + ' ' + @apellido_socio+ ' Ya se encuentra en la Tabla Socio')
+		print('El SOCIO con el ID :' + '' + CAST(@id_socio AS VARCHAR)  + ' y Con el Nombre: ' + @nombre_socio +  + ' y Apellido: ' + @apellido_socio+ ' Ya se encuentra en la Tabla Socio')
 	end
 
 --finalizado
@@ -660,3 +744,7 @@ SELECT * FROM AHORRO
 
 exec SP_AHORROS 32, '2021-10-29','300000','1','32'
 exec SP_AHORROS 33, '2022-10-29','50000','1','32'
+
+
+
+---TRIGGER PARA PROCEDIMIENTO
